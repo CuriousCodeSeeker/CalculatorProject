@@ -19,7 +19,7 @@ arr.forEach(button=>{
 
         }else if(e.target.innerHTML == "C"){
 
-            input.value=input.value.subscript(0,input.value.length - 1);
+            input.value=input.value.substring(0,input.value.length - 1);
 
             input.focus();
 
